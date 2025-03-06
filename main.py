@@ -31,7 +31,7 @@ def download_model(model_path, model_url):
 def main():
     download_model(MODEL_PATH, MODEL_CHOICES["light"])  # Change "light" to "heavy" if needed
 
-    image_path = 'imgs/normal.png'
+    image_path = '' ### add path to image ###
     image = cv2.imread(image_path)
 
     if image is None:
